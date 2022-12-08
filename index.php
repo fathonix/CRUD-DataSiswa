@@ -202,7 +202,7 @@ if (isset($_POST['simpan'])) {
             </div>
         </div>
         <!-- Read Data -->
-        <div class="card shadow card-end">
+        <div class="card shadow">
             <div class="card-header text-white bg-secondary">
                 Data Siswa
             </div>
@@ -250,6 +250,11 @@ if (isset($_POST['simpan'])) {
                         ?>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <div class="card shadow card-end">
+            <div class="card-body text-center">
+                © <?php echo date("Y") ?> <a href="https://github.com/fathonix">fathonix</a>
             </div>
         </div>
     </div>
