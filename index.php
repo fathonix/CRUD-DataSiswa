@@ -131,10 +131,12 @@ if (isset($_POST['simpan'])) {
 <body>
     <div class="mx-auto">
         <div class="card shadow">
-            <div class="card-body text-center">
-                <img src="./assets/img/favicon.ico" height="100">
-                <h1 class="fw-bold">Data Siswa</h1>
-            </div>
+            <a class="nostyle" href="index.php">
+                <div class="card-body text-center">
+                    <img src="./assets/img/favicon.ico" height="100">
+                    <h1 class="fw-bold">Data Siswa</h1>
+                </div>
+            </a>
         </div>
         <!-- Create Data -->
         <div class="card shadow">
