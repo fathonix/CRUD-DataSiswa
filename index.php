@@ -102,8 +102,9 @@ if (isset($_POST['simpan'])) {
             background-position: center;
             background-attachment: fixed;
         }
-        a {
-            text-decoration:none;
+        a.nostyle:link, a.nostyle:visited {
+            text-decoration: inherit;
+            color: inherit;
         }
         .mx-auto {
             width: 800px;
@@ -234,10 +235,10 @@ if (isset($_POST['simpan'])) {
                                 <td scope="row"><?php echo $alamat ?></td>
                                 <td scope="row"><?php echo $kelas ?></td>
                                 <td scope="row">
-                                    <a href="index.php?op=edit&id=<?php echo $id ?>">
+                                    <a class="nostyle" href="index.php?op=edit&id=<?php echo $id ?>">
                                         <button type="button" class="btn btn-warning">Ubah</button>
                                     </a>
-                                    <a href="index.php?op=delete&id=<?php echo $id ?>" onclick="return confirm('Apakah anda yakin?')">
+                                    <a class="nostyle" href="index.php?op=delete&id=<?php echo $id ?>" onclick="return confirm('Apakah anda yakin?')">
                                         <button type="button" class="btn btn-danger">Hapus</button>
                                     </a>
                                 </td>
