@@ -254,7 +254,7 @@ if (isset($_POST['simpan'])) {
         </div>
         <div class="card shadow card-end">
             <div class="card-body text-center">
-                © <?php echo date("Y") ?> <a href="https://github.com/fathonix">fathonix</a>
+                © <?php echo date("Y") ?> <a href="https://github.com/fathonix" target="_blank">fathonix</a>
             </div>
         </div>
     </div>
